@@ -1,0 +1,33 @@
+.carouselimages {
+  position: relative;
+}
+
+.carouselimages img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  bottom: 20px;
+}
+
+.carousel .control-dots .dot {
+  background: #fff;
+}
+
+.mt-28 {
+  margin-top: 28px;
+}
+
+.mr-14 {
+  margin-right: 14px;
+}
+
+.ml-14 {
+  margin-left: 14px;
+}

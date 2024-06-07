@@ -1,0 +1,154 @@
+.container{
+    background-color: #e3d03f;
+    width: 100%;
+    height: 600px;
+}
+.cont{
+    background-color: #135c97;
+    width: 100%;
+    height: 600px;
+    border-radius: 0px 0px 700px;
+}
+.cont h1{
+    margin: 20px 50px;
+    padding-top: 20px;
+    font-size: 45px;
+    color: #e3d03f;
+}
+.card1{
+    background-color: palevioletred;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 190px;
+    margin-left: 30px;
+    position: absolute;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+.card5:hover{
+    transform: scale(1.1);
+}
+.card6:hover{
+    transform: scale(1.1);
+}
+.card7:hover{
+    transform: scale(1.1);
+}
+.card1 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card2{
+    background-color: #70ced8;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 160px;
+
+}
+.card2 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card3{
+    background-color: #b445b4;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 130px;
+
+}
+.card3 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card4{
+    background-color: #bccf4f;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 100px;
+
+}
+.card4 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card5{
+    background-color: #b49c45;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 70px;
+
+}
+.card5 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card6{
+    background-color: #5ba23d;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 10px;
+    position: relative;
+
+
+}
+.card6 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card7{
+    background-color: #c3662d;
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 40px;
+
+
+}
+.card7 h2{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+}
+.card{
+    display: flex;
+    position: relative;
+    margin: 50px;
+}
+.card img{
+    width: 160px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+.card6 img{
+    margin-top: 0px;
+    width: 130px;
+}
+.card8 img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+}

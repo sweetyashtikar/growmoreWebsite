@@ -1,0 +1,100 @@
+.container0 {
+  background-color: rgb(197, 243, 227);
+  padding-bottom: 50px;
+}
+
+.container0 h1 {
+  padding: 15px;
+  padding-top: 70px;
+  text-align: center;
+  color: rgb(23, 25, 26);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.about-cards {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.about-cards .vision-card,
+.about-cards .mission-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-cards .vision-card:hover,
+.about-cards .mission-card:hover {
+  background-color: rgb(244, 202, 209);
+}
+
+.about-cards h2 {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.about-cards p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card0-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.card0 {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  flex: 1;
+  max-width: 200px; /* Set a consistent max width */
+  height: 250px; /* Set a consistent height */
+}
+
+.card0 img {
+  width: 100px;
+  height: auto;
+}
+
+.card0 h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.card0:hover {
+  transform: translateY(-10px);
+}
+
+
+
+@media (max-width: 768px) {
+  .about-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card0-row {
+    flex-direction: column;
+  }
+
+  .arrow {
+    margin: 10px 0;
+  }
+}

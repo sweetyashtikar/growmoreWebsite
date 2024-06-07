@@ -1,0 +1,90 @@
+.javaimage{
+  width: 1350px;
+  height:600px;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("./pics/javapic.jpg");
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+  
+}
+.pythonpics{
+  width: 1350px;
+  height:600px;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("./pics/pythonpic.jpg");
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.mernpic{
+  width: 1350px;
+  height:600px;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("./pics/mernpic.jpg");
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.card {
+
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  background: linear-gradient(135deg, #faea06, #f3ef08);
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: black;
+}
+
+.card-footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  color: #351650;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #6c5ce7;
+}
+.card-content li{
+  list-style-type:square;
+}

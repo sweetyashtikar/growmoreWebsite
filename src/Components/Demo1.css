@@ -1,0 +1,218 @@
+/* Demo1.css */
+
+.democard {
+    width: 96%;
+    /* margin: 30px; */
+   
+    
+  }
+  
+  /* Style for each card */
+  .democard1  {
+    padding: 20px;
+    text-align: center;
+    margin : 30px;
+    background-color: rgb(223, 240, 234);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+   
+   
+  }
+  .slick-slide > div {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  .democard1 img {
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 40px;
+  }
+  
+  .democard1 h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .democard1 p {
+    /* margin-top: 10px; */
+  }
+  
+  .democard1 input[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .democard1 input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  .democard2  {
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(223, 240, 234);
+    border-radius: 20px;
+  }
+  
+  .democard2 img {
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 40px;
+  }
+  
+  .democard2 h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .democard2 p {
+    margin-top: 10px;
+  }
+  
+  .democard2 input[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .democard2 input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  .democard3  {
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(223, 240, 234);
+    border-radius: 20px;
+    
+  }
+  
+  .democard3 img {
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 40px;
+  }
+  
+  .democard3 h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .democard3 p {
+    margin-top: 10px;
+  }
+  
+  .democard3 input[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .democard3 input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  .democard4  {
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(223, 240, 234);
+    border-radius: 20px;
+    
+  }
+  
+  
+  .democard4 img {
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 40px;
+  }
+  
+  .democard4 h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .democard4 p {
+    margin-top: 10px;
+  }
+  
+  .democard4 input[type="button"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .democard4 input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  .democard5  {
+
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+   background-color: rgb(223, 240, 234);
+   border-radius: 20px;
+   
+  }
+  
+  .democard5 img {
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    margin-left: 40px;
+  }
+  
+  .democard5 h2 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+  
+  .democard5 p {
+    margin-top: 20px;
+  }
+  
+  .democard5 input[type="button"] {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .democard5 input[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  

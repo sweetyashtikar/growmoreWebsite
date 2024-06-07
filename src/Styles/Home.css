@@ -1,0 +1,218 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Section Styling */
+section {
+  background-image: url(https://wallpaperaccess.com/full/4391724.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.one {
+  margin: 70px;
+  padding-top: 70px;
+}
+
+.one h1 {
+  color: #f4ffff;
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 55px;
+  transition: color 0.3s ease;
+}
+
+.one h1:hover {
+  color: #ffcc00;
+}
+
+.one p {
+  color: #f4ffff;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 50%;
+  transition: color 0.3s ease;
+}
+
+.one p:hover {
+  color: #ffcc00;
+}
+
+.one input[type="button"] {
+  background-color: #f78f20;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.one input[type="button"]:hover {
+  background-color: #e67300;
+}
+
+/* Container Styling */
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgb(163, 180, 165);
+}
+
+/* Content Styling */
+.three {
+  flex: 1;
+  padding: 20px;
+}
+
+.three h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: rgb(27, 2, 57);
+  transition: color 0.3s ease;
+}
+
+.three h1:hover {
+  color: #ff6600;
+}
+
+.three p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.three p:hover {
+  color: #ff6600;
+}
+
+/* Image Styling */
+.four {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.four img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.four img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .two {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .three, .four {
+    padding: 10px;
+  }
+
+  .three h1 {
+    font-size: 1.5em;
+  }
+
+  .three p {
+    font-size: 0.9em;
+  }
+}
+
+/* Services Section Styling */
+.aa {
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0;
+  transition: color 0.3s ease;
+}
+
+.aa:hover {
+  color: #ff6600;
+}
+
+.services {
+  border: 1px dotted black;
+  background-color: cadetblue;
+}
+
+.b1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.b2 {
+  text-align: center;
+  margin: 20px;
+  border: 2px solid black;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.b2:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+}
+
+.b2 img {
+  max-width: 200px;
+  height: 180px;
+  transition: transform 0.3s ease;
+}
+
+.b2 img:hover {
+  transform: scale(1.1);
+}
+
+.b2 p {
+  margin-top: 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.b2:hover p {
+  color: #ff6600;
+}
+
+@media (max-width: 768px) {
+  .one h1 {
+    font-size: 35px;
+  }
+
+  .one p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .two {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  
+  .b1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .b2 {
+    margin: 10px 0;
+  }
+}

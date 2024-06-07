@@ -1,0 +1,68 @@
+/* General Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  color: black;
+}
+
+.navbar-logo img {
+  height: 80px; /* Adjust the height as needed */
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-item a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  padding-right: 80px; /* Add transition for smooth color change */
+}
+
+.navbar-item a:hover {
+  color: blue; /* Change color on hover */
+}
+
+/* Mobile Styles */
+.mobile-menu-icon {
+  display: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #ece9e9;
+  }
+
+  .navbar-items.active {
+    display: flex;
+  }
+
+  .navbar-item {
+    margin: 10px 0;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+}

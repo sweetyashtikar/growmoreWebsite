@@ -19,7 +19,6 @@ export const NavBar = () => {
             <div className={`navbar-items ${isMobile ? 'active' : ''}`}>
                 <li className="navbar-item"><Link to="/" onClick={handleToggle}>Home</Link></li>
                 <li className="navbar-item"><Link to="/about" onClick={handleToggle}>About</Link></li>
-                <li className="navbar-item"><Link to="/Circle" onClick={handleToggle}>Course</Link></li>
                 <li className="navbar-item"><Link to="/contacts" onClick={handleToggle}>Contacts</Link></li>
             </div>
             <div className="mobile-menu-icon" onClick={handleToggle}>

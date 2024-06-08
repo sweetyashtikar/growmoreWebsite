@@ -1,47 +1,103 @@
-import React from "react";
 import '../Styles/Contact.css'
+import React, { useState } from "react";
+
+
 export const Contacts = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:5000/api/enquiries', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log('Form data submitted:', data);
+      // Reset the form
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
+
   return (
-    <>
-      <div id="main">
-        <div className="main1">
-          <h1>Contact Us</h1>
-          <input type="text" placeholder="Enter Your Name" />
-          <br />
-          <br />
-          <input type="text" placeholder="Enter Your Email" />
-          <br />
-          <br />
-          <input type="password" placeholder="Enter Your password" />
-          <br />
-          <br />
-          <textarea
-            name=""
-            id=""
-            cols="20"
-            rows="5"
-            placeholder="Message"
-          ></textarea>
-          <br />
-          <br />
+    <div className="enquiry-form-container">
+      <h2>Enquiry Form</h2>
+      <form onSubmit={handleSubmit} className="enquiry-form">
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
           <input
-            className="submit-button"
-            type="button"
-            value="Submit Detail"
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
           />
         </div>
-        <div className="main2">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7569.2382288490135!2d73.826095!3d18.455595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc295c1e1b82c9d%3A0xbd383e5b30f8ded8!2sGrowmore%20Technoline%20India%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1714110747621!5m2!1sen!2sin"
-            width="600"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
         </div>
-      </div>
-    </>
+        <div className="form-group">
+          <label htmlFor="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 };
+
+
+
+
+
+

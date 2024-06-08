@@ -1,21 +1,35 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "../Styles/Home.css";
 import Demo1 from "./Demo1";
 
+
+const courses = ["Data Science", "Full Stack development", "Artifical Intelligances","Python Develpoment","Java Full stack development"];
+
 const Home = () => {
+  const [currentCourseIndex, setCurrentCourseIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentCourseIndex((prevIndex) => (prevIndex + 1) % courses.length);
+    }, 2000); // Change the course every 2 seconds
+
+    return () => clearInterval(intervalId); // Clean up the interval on component unmount
+  }, []);
+
   return (
     <div>
       <section>
         <div className="one">
-          <h1>
-            Learning Today,
-            <br />
-            Leading Tomorrow
-          </h1>
+          <h1>Learning Today, Leading Tomorrow</h1>
           <p>
-            Empowering Tomorrow's Innovators: Master Full Stack Development with
-            Our Comprehensive Courses!
+            <marquee direction="right">
+              Empowering Tomorrow's Innovators: Master Full Stack Development
+              with Our Comprehensive Courses!
+            </marquee>
           </p>
+          <div className="course-display">
+            <h2> {courses[currentCourseIndex]}</h2>
+          </div>
         </div>
       </section>
       <br></br>
@@ -57,7 +71,7 @@ const Home = () => {
           </p>
         </div>
         <div className="four">
-          <img src="/Images/about1.jpg" alt="About us" />
+          <img src="/Images/abc.webp" alt="About us" />
         </div>
       </div>
       <br></br>
@@ -68,7 +82,7 @@ const Home = () => {
           <div className="b2">
             <img
               style={{ width: 200 }}
-              src="https://img.freepik.com/free-vector/classroom-concept-illustration_114360-2112.jpg"
+              src="https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_960_720.jpg"
               alt=""
             />
             <p>
@@ -78,7 +92,7 @@ const Home = () => {
           <div className="b2">
             <img
               style={{ width: 200 }}
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5n6ZFhCzGnFwjESxiXcvxP70QkgccOvug_RZPpNBO3A&s"
+              src="https://cdn.pixabay.com/photo/2022/04/03/18/28/webcam-7109621_960_720.png"
               alt=""
             />
             <p>Online Training</p>
@@ -86,7 +100,7 @@ const Home = () => {
           <div className="b2">
             <img
               style={{ width: 200 }}
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpEZ33A8oiCJq3ejXdDTfmQY7H9j1ONp9gmozxy_WASUwNTqLCWhLADyhmrpqUV3t-Wjc&usqp=CAU"
+              src="https://cdn.pixabay.com/photo/2024/06/03/05/28/ai-generated-8805518_960_720.png"
               alt=""
             />
             <p>Job Oriented Training</p>
@@ -94,7 +108,7 @@ const Home = () => {
           <div className="b2">
             <img
               style={{ width: 200 }}
-              src="https://static.vecteezy.com/system/resources/previews/004/379/121/original/office-workers-brainstorming-teamwork-flat-illustration-business-conference-seminar-corporate-training-managers-team-working-isolated-cartoon-characters-employees-executives-board-of-directors-vector.jpg"
+              src="https://cdn.pixabay.com/photo/2023/01/03/18/00/interview-7695015_1280.png"
               alt=""
             />
             <p>Corporate Training</p>

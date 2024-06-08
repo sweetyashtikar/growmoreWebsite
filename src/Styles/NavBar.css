@@ -3,18 +3,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 25px;
   background-color: #fff;
   color: black;
 }
 
 .navbar-logo img {
-  height: 80px; /* Adjust the height as needed */
+  height: 80px;
 }
 
 .navbar-items {
-  list-style: none;
   display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -26,43 +26,43 @@
 .navbar-item a {
   color: black;
   text-decoration: none;
-  font-size: 20px;
   transition: color 0.3s ease;
-  padding-right: 80px; /* Add transition for smooth color change */
+  padding: 80px;
 }
 
 .navbar-item a:hover {
-  color: blue; /* Change color on hover */
+  color: #ff4081;
 }
 
 /* Mobile Styles */
 .mobile-menu-icon {
   display: none;
   font-size: 24px;
-  color: black;
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
   .navbar-items {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #ece9e9;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #333;
+      z-index: 10;
   }
 
   .navbar-items.active {
-    display: flex;
+      display: flex;
   }
 
   .navbar-item {
-    margin: 10px 0;
+      margin: 10px 0;
+      text-align: center;
   }
 
   .mobile-menu-icon {
-    display: block;
+      display: block;
   }
 }

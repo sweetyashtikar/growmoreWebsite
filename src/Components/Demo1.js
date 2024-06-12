@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Demo1.css"; // Add your custom styles here
-
+import { Link } from "react-router-dom";
 const Demo1 = () => {
   const settings = {
     dots: true,
@@ -52,7 +52,7 @@ const Demo1 = () => {
             <p>
               <b>Duration </b>: 5 Month
             </p>
-            <input type="button" defaultValue="Check Now" />
+           <Link to='/jfsd'> <input type="button" defaultValue="Check Now" /></Link>
           </div>
           <div className="democard2">
             <img
@@ -66,7 +66,7 @@ const Demo1 = () => {
             <p>
               <b>Duration </b>: 3 Month
             </p>
-            <input type="button" defaultValue="Check Now" />
+          <Link to='/python'>  <input type="button" defaultValue="Check Now" /></Link>
           </div>
           <div className="democard3">
             <img
@@ -80,7 +80,7 @@ const Demo1 = () => {
             <p>
               <b>Duration </b>: 5 Month
             </p>
-            <input type="button" defaultValue="Check Now" />
+           <Link to='/ds'> <input type="button" defaultValue="Check Now" /></Link>
           </div>
           <div className="democard4">
             <img
@@ -94,7 +94,7 @@ const Demo1 = () => {
             <p>
               <b>Duration </b>: 4 Month
             </p>
-            <input type="button" defaultValue="Check Now" />
+           <Link to='/ai'> <input type="button" defaultValue="Check Now" /></Link>
           </div>
           <div className="democard5">
             <img
@@ -108,7 +108,7 @@ const Demo1 = () => {
             <p>
               <b>Duration </b>: 3 Month
             </p>
-            <input type="button" defaultValue="Check Now" />
+            <Link to='/ml'><input type="button" defaultValue="Check Now" /></Link>
           </div>
         </Slider>
       </div>

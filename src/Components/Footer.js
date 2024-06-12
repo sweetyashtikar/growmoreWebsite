@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <TechnologyMarquee />
+        {/* <TechnologyMarquee /> */}
       </div>
 
       <div>

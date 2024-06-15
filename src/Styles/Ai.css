@@ -235,45 +235,51 @@
 .AI6 h1 {
   text-align: center;
 }
-.AI6  {
- margin: 10px 150px;
- border: 1px solid black;
- box-shadow: 2px 2px 9px black;
+
+.AI6 {
+  margin: 10px 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 9px black;
+  padding: 10px;
 }
+
 .circle {
   width: 30px;
-  height: 10px;
-  margin-left: -8px;
+  height: 30px;
   background-color: #6a00ff;
   border-radius: 50%;
-  margin-right: 20px;
-  position: relative;
-  z-index: 1;
+  /* margin-right: 20px; */
+  margin-left: -20px;
+  flex-shrink: 0;
 }
 
 .content {
-  max-width: 800px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  max-width: 800px;
 }
-.section p {
-  margin-left: 200px;
-}
-.section h2 {
-  font-size: 18px;
+
+.section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 24px;
   margin: 0 0 10px 0;
-  color: rgb(28, 28, 58); 
+  color: rgb(28, 28, 58);
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
-  color: rgb(28, 28, 58); 
+  color: rgb(28, 28, 58);
+}
+
+.container {
+  position: relative;
 }
 
 .container::before {
@@ -283,9 +289,35 @@ p {
   bottom: 0;
   left: 15px;
   width: 2px;
-  height: 865px;
-  background-color:Black;
+  background-color: black;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .AI6 {
+    margin: 10px;
+  }
+
+  .container::before {
+    left: 10px;
+  }
+
+  .content {
+    margin-left: 40px;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .circle {
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    margin-left: 0;
+  }
 }
 /* AI7 */
 .AI7 h1 {
@@ -490,4 +522,96 @@ h1 {
 
 .progress:hover img {
   transform: scale(1.1);
+}
+@media screen and (max-width:578px){
+  .a1{
+    font-size: 13px;
+    text-align: left;
+    margin-right: 20px;
+  }
+  .AI2{
+    display: block;
+  }
+  .AI2 p{
+   font-size: 11px;
+   width: 210px;
+  }
+  .AI2 img{
+   width: 190px;
+   height: 100px;
+  }
+  .AI3{
+    display: block;
+    margin-right: 20px;
+  }
+  .AI3 p{
+   font-size: 11px;
+   width: 210px;
+  }
+  .AI3 img{
+   width: 190px;
+   height: 100px;
+  }
+  .AI h1{
+    font-size: 13px;
+    width: 230px;
+    text-align: center;
+    margin-left: 10PX;
+  }
+  .cards-container{
+    display: block;
+  }
+  .card1{
+    width: 250px;
+  }
+  .card1 h2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .card1 p{
+    font-size: 11px;
+  }
+  .card1 h4{
+    font-size: 12px;
+    width: 150px;
+  }
+  .cards-container1{
+    display: block;
+  }
+  .AI4 li{
+    font-size: 11px;
+  }
+  .AI4 h2{
+    font-size: 13px;
+  }
+  .AI5 h1{
+    font-size: 17px;
+    text-align: left;
+  }
+  .cards-container2{
+    display: block;
+   margin-left: 0px;
+   padding: 0px;
+  }
+  .content10{
+    display: block;
+    margin: 0px;
+    width: 200px;
+  }
+  .section-right{
+   text-align: left;
+  }
+  .content10 p{
+   font-size: 11px;
+  }
+  .display1{
+    display: block;
+  }
+  .AI8{
+    padding: 0px;
+  }
+  .content{
+    display: block;
+  }
 }

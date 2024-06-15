@@ -1,8 +1,11 @@
 .foot {
   background-color: #0d1b2b;
   display: flex;
-  height: 350px;
-  margin-bottom: 0%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  height: auto;
+  margin-bottom: 0;
 }
 
 .foot h1 {
@@ -15,18 +18,22 @@
   color: #ede6e6;
   font-size: 24px;
   text-decoration: none;
-  margin-left: 35%;
   display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .icon {
-  margin-right: 10px;
-  font-size: 24px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .icon:hover {
   opacity: 0.7;
+}
+
+.foot1 {
+  flex: 1 1 200px;
+  margin: 10px;
 }
 
 .foot1 a {
@@ -34,28 +41,33 @@
   text-decoration: none;
   font-size: 14px;
   list-style-type: none;
-  margin: 8px;
-  margin-left: 150px;
+  display: block;
+  margin: 8px 0;
 }
 
 .foot2 {
   color: #f4ffff;
   font-size: 20px;
   font-weight: bold;
-  margin-right: 80px;
 }
 
-.h2 p {
-  background-color: #0d1b2b;
-  color: #f4ffff;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding: 20px;
-}
+@media (max-width: 768px) {
+  .foot {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.nav3 img {
-  width: 50px;
-  margin-top: 20px;
-  border-radius: 50%;
+  .social-icons {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .foot1 {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .foot1 a {
+    margin-left: 0;
+  }
 }

@@ -6,6 +6,7 @@
   padding: 25px;
   background-color: #fff;
   color: black;
+  position: relative;
 }
 
 .navbar-logo img {
@@ -27,7 +28,7 @@
   color: black;
   text-decoration: none;
   transition: color 0.3s ease;
-  padding: 80px;
+  padding: 15px;
 }
 
 .navbar-item a:hover {
@@ -62,7 +63,16 @@
       text-align: center;
   }
 
+  .navbar-item a {
+      color: white;
+      padding: 10px;
+  }
+
   .mobile-menu-icon {
       display: block;
+  }
+
+  .navbar-logo img {
+      height: 60px;
   }
 }

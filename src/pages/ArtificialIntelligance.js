@@ -292,79 +292,79 @@ const ArtificialIntelligance = () => {
         </div>
       </div>
       <br></br>
-
       <div className="AI6">
-        <br></br>
-        <h1>Why everyone should learn Artificial Intelligence?</h1>
-        <br></br>
+  <br />
+  <h1>Why everyone should learn Artificial Intelligence?</h1>
+  <br />
 
-        <div className="container">
-          <div className="section">
-            <div className="circle"></div>
-            <div className="content">
-              <h2>Career Opportunities</h2>
-              <p>
-                Learning artificial intelligence opens up a plethora of career
-                opportunities across various industries. As AI continues to
-                revolutionize sectors like healthcare, finance, marketing, and
-                more, professionals with AI skills are in high demand.
-              </p>
-            </div>
-          </div>
-          <div className="section">
-            <div className="circle"></div>
-            <div className="content">
-              <h2>Problem-Solving Powerhouse</h2>
-              <p style={{ marginLeft: "216px" }}>
-                AI equips individuals with powerful problem-solving tools. By
-                understanding AI concepts and algorithms, individuals can
-                develop innovative solutions to complex problems, ranging from
-                automating repetitive tasks to predicting future trends.
-              </p>
-            </div>
-          </div>
-          <div className="section">
-            <div className="circle"></div>
-            <div className="content">
-              <h2>Enhanced Decision Making</h2>
-              <p style={{ marginLeft: "227px" }}>
-                AI enables data-driven decision-making by analyzing vast amounts
-                of data quickly accurately. By learning AI, individuals can
-                leverage this capability to make informed decisions that drive
-                efficiency, productivity, and profitability in both personal and
-                professional contexts.
-              </p>
-            </div>
-          </div>
-          <div className="section">
-            <div className="circle"></div>
-            <div className="content">
-              <h2>Technology of the Future</h2>
-              <p style={{ marginLeft: "220px" }}>
-                AI is shaping the future of technology. From self-driving cars
-                to virtual assistants, AI-powered innovations are becoming
-                increasingly integrated into our daily lives. Learning AI
-                empowers individuals to understand and contribute to the
-                development of these cutting-edge technologies.
-              </p>
-            </div>
-          </div>
-          <div className="section">
-            <div className="circle"></div>
-            <div className="content">
-              <h2>Empowerment and Adaptation</h2>
-              <p>
-                In a rapidly evolving technological landscape, continuous
-                learning is essential. By acquiring AI skills, individuals
-                future-proof themselves by staying relevant in the job market
-                and adapting to emerging trends. Whether in academia, research,
-                or industry, AI literacy is becoming increasingly valuable
-                across all domains.
-              </p>
-            </div>
-          </div>
-        </div>
+  <div className="container">
+    <div className="section">
+      <div className="circle"></div>
+      <div className="content">
+        <h2>Career Opportunities</h2>
+        <p>
+          Learning artificial intelligence opens up a plethora of career
+          opportunities across various industries. As AI continues to
+          revolutionize sectors like healthcare, finance, marketing, and
+          more, professionals with AI skills are in high demand.
+        </p>
       </div>
+    </div>
+    <div className="section">
+      <div className="circle"></div>
+      <div className="content">
+        <h2>Problem-Solving Powerhouse</h2>
+        <p>
+          AI equips individuals with powerful problem-solving tools. By
+          understanding AI concepts and algorithms, individuals can
+          develop innovative solutions to complex problems, ranging from
+          automating repetitive tasks to predicting future trends.
+        </p>
+      </div>
+    </div>
+    <div className="section">
+      <div className="circle"></div>
+      <div className="content">
+        <h2>Enhanced Decision Making</h2>
+        <p>
+          AI enables data-driven decision-making by analyzing vast amounts
+          of data quickly and accurately. By learning AI, individuals can
+          leverage this capability to make informed decisions that drive
+          efficiency, productivity, and profitability in both personal and
+          professional contexts.
+        </p>
+      </div>
+    </div>
+    <div className="section">
+      <div className="circle"></div>
+      <div className="content">
+        <h2>Technology of the Future</h2>
+        <p>
+          AI is shaping the future of technology. From self-driving cars
+          to virtual assistants, AI-powered innovations are becoming
+          increasingly integrated into our daily lives. Learning AI
+          empowers individuals to understand and contribute to the
+          development of these cutting-edge technologies.
+        </p>
+      </div>
+    </div>
+    <div className="section">
+      <div className="circle"></div>
+      <div className="content">
+        <h2>Empowerment and Adaptation</h2>
+        <p>
+          In a rapidly evolving technological landscape, continuous
+          learning is essential. By acquiring AI skills, individuals
+          future-proof themselves by staying relevant in the job market
+          and adapting to emerging trends. Whether in academia, research,
+          or industry, AI literacy is becoming increasingly valuable
+          across all domains.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
       <br></br>
       <br></br>
 

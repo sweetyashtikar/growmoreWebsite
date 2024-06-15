@@ -32,7 +32,7 @@ function App() {
           <Route path="/ml" element={<MachineLearning/>}/>
 
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

@@ -1,14 +1,12 @@
 import React from "react";
 import "../Styles/Ai.css";
-import img3 from "../images/img3.jpg";
-import img4 from "../images/img4.jpg";
-import img5 from "../images/img5.jpg";
-import img6 from "../images/img6.jpg";
 
 const ArtificialIntelligance = () => {
   return (
     <div className="AI1">
+      <div className="ML1">
       <h1 className="a1">What is Artificial Intelligence?</h1>
+  
       <div className="AI2">
         <p>
           Artificial Intelligence focuses on creating systems capable of
@@ -19,9 +17,11 @@ const ArtificialIntelligance = () => {
           identify patterns, and make predictions or decisions based on that
           data.
         </p>
+        <img src="https://media.istockphoto.com/id/1356593648/photo/3d-render-businessman-touching-robotic-hand.jpg?s=612x612&w=0&k=20&c=E6J16F4RmA4SjfIkqEvyHu6A-OaKl8C9oeqQPQMV6Do=" alt=""></img>
       </div>
       <br></br>
       <div className="AI3">
+      <img src="https://www.shutterstock.com/shutterstock/videos/1109161881/thumb/10.jpg?ip=x480" alt=""></img>
         <p>
           At its core, AI aims to replicate or simulate human cognitive
           functions, such as reasoning, problem solving, perception, and
@@ -33,14 +33,18 @@ const ArtificialIntelligance = () => {
           transportation, and entertainment.
         </p>
       </div>
+      </div>
       <br></br>
 
-      <div className="AI3">
+      <div className="AI0">
+      <div className="ML2">
+      <div className="AI">
         <h1>
           Artificial Intelligence vs Machine Learning vs Deep Learning
           <br></br>
           <br></br>
         </h1>
+      </div>
         <div className="cards-container">
           <div className="card1">
             <h2>Artificial Intelligence</h2>
@@ -84,6 +88,7 @@ const ArtificialIntelligance = () => {
             <p>Image recognition, Natural language processing, etc.</p>
           </div>
         </div>
+       </div>
       </div>
       <br></br>
 
